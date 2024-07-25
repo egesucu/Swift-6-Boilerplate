@@ -1,5 +1,5 @@
 //
-//  Swift_6_BoilerplateUITestsLaunchTests.swift
+//  LaunchUITests.swift
 //  Swift 6 BoilerplateUITests
 //
 //  Created by Sucu, Ege on 25.07.2024.
@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class Swift_6_BoilerplateUITestsLaunchTests: XCTestCase {
+final class LaunchUITests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

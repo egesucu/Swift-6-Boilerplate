@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "E88E53CC-CB7E-4072-8951-7DAB3B5E63A5",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Swift 6 Boilerplate.xcodeproj",
+      "identifier" : "7233C6C52C52D1D30000D7F9",
+      "name" : "Swift 6 Boilerplate"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Swift 6 Boilerplate.xcodeproj",
+        "identifier" : "7233C71F2C52E82D0000D7F9",
+        "name" : "Swift 6 BoilerplateUITests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Swift 6 Boilerplate.xcodeproj",
+        "identifier" : "7233C6D72C52D1D60000D7F9",
+        "name" : "Swift 6 BoilerplateTests"
+      }
+    }
+  ],
+  "version" : 1
+}
